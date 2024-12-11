@@ -1,7 +1,13 @@
 # Screenshots
 
-![Screenshot 1](assets/1.png)
-![Screenshot 2](assets/2.png)
+<div class="grid grid-cols-2 gap-4">
+  <div>
+    <img src="assets/1.png" alt="Screenshot 1">
+  </div>
+  <div>
+    <img src="assets/2.png" alt="Screenshot 2">
+  </div>
+</div>
 
 # Data Project Template
 
