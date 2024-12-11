@@ -1,3 +1,8 @@
+# Screenshots
+
+![Screenshot 1](assets/1.png)
+![Screenshot 2](assets/2.png)
+
 # Data Project Template
 
 <a target="_blank" href="https://datalumina.com/">
@@ -5,6 +10,7 @@
 </a>
 
 ## Cookiecutter Data Science
+
 This project template is a simplified version of the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org) template, created to suit the needs of Datalumina and made available as a GitHub template.
 
 ## Adjusting .gitignore
@@ -19,6 +25,7 @@ Ensure you adjust the `.gitignore` file according to your project needs. For exa
 Typically, you want to exclude this folder if it contains either sensitive data that you do not want to add to version control or large files.
 
 ## Duplicating the .env File
+
 To set up your environment variables, you need to duplicate the `.env.example` file and rename it to `.env`. You can do this manually or using the following terminal command:
 
 ```bash
@@ -27,7 +34,6 @@ copy .env.example .env # Windows Command Prompt
 ```
 
 This command creates a copy of `.env.example` and names it `.env`, allowing you to configure your environment variables specific to your setup.
-
 
 ## Project Organization
 
@@ -64,16 +70,16 @@ This command creates a copy of `.env.example` and names it `.env`, allowing you 
     │
     ├── features.py             <- Code to create features for modeling
     │
-    │    
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
+    │
+    ├── modeling
+    │   ├── __init__.py
+    │   ├── predict.py          <- Code to run model inference with trained models
     │   └── train.py            <- Code to train models
     │
-    ├── plots.py                <- Code to create visualizations 
+    ├── plots.py                <- Code to create visualizations
     │
     └── services                <- Service classes to connect with external platforms, tools, or APIs
-        └── __init__.py 
+        └── __init__.py
 ```
 
---------
+---
